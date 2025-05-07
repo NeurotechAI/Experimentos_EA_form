@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experimento de carga mental</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #005288;
+    }
+    form {
+      margin-top: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #005288;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #003f6b;
+    }
+    .contact {
+      background: #e7f3ff;
+      padding: 10px;
+      border-left: 4px solid #005288;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Participa en nuestro experimento sobre carga mental</h1>
+
+  <p>
+    Estamos llevando a cabo un experimento para estudiar la <strong>carga mental</strong> durante tareas cognitivas. No necesitas ninguna preparación previa para participar.
+  </p>
+
+  <p>
+    Durante el estudio, se utilizarán los siguientes dispositivos para registrar tu actividad:
+    <ul>
+      <li><strong>EEG:</strong> casco de registro de actividad cerebral</li>
+      <li><strong>Eye-tracker:</strong> gafas para seguimiento ocular</li>
+      <li><strong>ECG:</strong> electrodos para medir la actividad cardíaca</li>
+      <li><strong>fNIRS:</strong> sensores para medir la oxigenación cerebral</li>
+    </ul>
+  </p>
+
+  <p>
+    El experimento consta de <strong>dos sesiones de 1 hora</strong> cada una. Se realizarán preferiblemente de forma consecutiva. Si no es posible, podrán hacerse por separado.
+  </p>
+
+  <p>
+    Antes de participar, se entregará un <strong>consentimiento informado</strong> que deberás firmar.
+  </p>
+
+  <h2>Información importante</h2>
+  <ul>
+    <li>No es necesario estudiar ni prepararse para la prueba.</li>
+    <li>No se permite el uso de teléfono móvil durante el registro.</li>
+    <li>El experimento se realizará en la <strong>ETSIT (Edificio B, aula B304)</strong>.</li>
+    <li>Si usas gafas graduadas, <strong>contacta previamente</strong> con nosotros y acude con <strong>lentillas</strong>.</li>
+  </ul>
+
+  <div class="contact">
+    <p>Si tienes dudas, puedes escribirnos a: <strong>ainara.carpio.chicote@fgupm.upm.es</strong></p>
+  </div>
+
+  <h2>¿Te interesa participar?</h2>
+  <p>Déjanos tu correo y un breve mensaje, y nos pondremos en contacto contigo para acordar fechas.</p>
+
+  <form action="https://formspree.io/f/xqaqbeag" method="POST">
+    <label for="email">Tu correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Mensaje (opcional):</label>
+    <textarea id="message" name="message" rows="4" placeholder="Por ejemplo: 'Estoy disponible las tardes de esta semana'"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
